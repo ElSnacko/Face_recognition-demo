@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jun  4 16:19:50 2018
 
-@author: Jordan
-"""
 #import pickle
 import face_recognition
 import scipy , cv2, os, time, ctypes
@@ -154,5 +150,4 @@ def encodeme(encode,test):
         print('True, euclidean distance of faces is ',face_distances[0])
     else:
         print('False, euclidean distance of faces is ',face_distances[0])
-#encodeme('Mannon.jpg','truetest.png')
   ###############################################################################################      
